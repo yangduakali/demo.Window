@@ -1,13 +1,12 @@
 {
   "dependencies": {
     "com.extension": {
-      "version": "https://github.com/yangduakali/com.extension.git",
+      "version": "file:com.extension",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
         "com.unity.addressables": "1.19.19"
-      },
-      "hash": "ccbedcce7a4ea61b432f64f80c6d9353ec5c877d"
+      }
     },
     "com.unity.addressables": {
       "version": "1.21.21",

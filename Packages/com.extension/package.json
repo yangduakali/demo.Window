@@ -1,0 +1,21 @@
+{
+  "name": "com.extension",
+  "version": "1.0.0",
+  "displayName": "Extension",
+  "description": "",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+    "com.unity.addressables": "1.19.19"
+  },
+  "keywords": [
+    "Extension",
+    "Basic"
+  ],
+  "author": {
+    "name": "Yang Yang",
+    "email": "yangduakali@gmail.com",
+    "url": "https://yangduakali.com"
+  }
+
+}
