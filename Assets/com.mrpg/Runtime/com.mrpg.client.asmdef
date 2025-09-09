@@ -1,0 +1,20 @@
+{
+    "name": "com.mrpg.client",
+    "rootNamespace": "mrpg.client",
+    "references": [
+        "GUID:52a5ab3e537ea2e4aa0bc73f7db199da",
+        "GUID:cd17a597b8a560544b6fa5cd397464d3",
+        "GUID:b2a3257799030384eb7762944f166119",
+        "GUID:4fb89ceb86c55cc42af2992007351243",
+        "GUID:7cc042c69a943724dbf5b13e4beed01b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "com.network.client",
+    "rootNamespace": "network.client",
+    "references": [
+        "GUID:cd17a597b8a560544b6fa5cd397464d3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_demo.mrpg/Runtime/Game.uss?fileID=7433441132597879392&amp;guid=7c10ed469c7f793409e0b0e4c790568a&amp;type=3#Game" />
+    <ui:VisualElement style="flex-direction: row; flex-grow: 1;">
+        <ui:VisualElement style="flex-grow: 1; align-items: flex-start;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="debug" style="-unity-font-style: bold;" />
+            <ui:Button text="Enter Scene 1" display-tooltip-when-elided="true" name="g1" />
+            <ui:Button text="Enter Scene 2 (Instance)" display-tooltip-when-elided="true" name="g2" />
+            <ui:Button text="Enter Scene 3" display-tooltip-when-elided="true" name="g3" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit-group" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; align-items: flex-end;">
+            <ui:TextField picking-mode="Ignore" label="Identifier" value="filler text" name="Identifier" style="min-width: 310px; flex-direction: row; justify-content: flex-start; align-items: stretch;" />
+            <ui:TextField picking-mode="Ignore" label="Ip" value="filler text" name="Ip" style="min-width: 310px;" />
+            <ui:TextField picking-mode="Ignore" label="Port" value="filler text" name="Port" focusable="true" style="min-width: 310px;" />
+            <ui:Button text="Connnect" display-tooltip-when-elided="true" name="Connect" />
+            <ui:Button text="Disconect" display-tooltip-when-elided="true" name="Disonnect" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+.unity-button {
+    max-height: 20px;
+}
+
+.unity-text-field {
+    -unity-font-style: bold;
+}
